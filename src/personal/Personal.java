@@ -1,13 +1,10 @@
-// IN PACKAGE 'personal'
 package personal;
 
 public class Personal {
-    //VARIABLES WITH ACCESS MODIFIERS
     public int id;
     protected String name;
     private int salary;
 
-    //PUBLIC GETTER & SETTER FOR ID
     public void setId(int id) {
         this.id = id;
     }
@@ -16,7 +13,6 @@ public class Personal {
         return id;
     }
 
-    //GETTER & SETTER FOR NAME
     public void setName(String name) {
         this.name = name;
     }
@@ -34,12 +30,10 @@ public class Personal {
         return salary;
     }
 
-    // PRIVATE METHOD
     private void privateMethod() {
         System.out.println("Calling private method...");
     }
 
-    // PROTECTED METHOD
     protected void protectedMethod() {
         System.out.println("Calling protected method...");
     }
