@@ -20,8 +20,7 @@ public class Personal {
     public String getName() {
         return name;
     }
-
-    //GETTER & SETTER FOR SALARY
+    
     public void setSalary(int salary) {
         this.salary = salary;
     }
